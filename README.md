@@ -5,7 +5,7 @@ Midi to CV in Eurorack
 #MK2 Design
 ## Status - New project started
 ![](MIDI2CV.png)
-#MK1 Design
+# MK1 Design
 ## Status - Rev B - Ongoing PCB layout and Sch update
 
 ## Status - Rev A Mounted - Midi code in progress
