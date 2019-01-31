@@ -1,0 +1,84 @@
+Source:	C:\Users\anders\Documents\KiCad\Projects\Kicad-MidiToCV\Kicad-Midi2CV.sch
+Date:	21/01/2019 21:55:35
+Tool:	Eeschema (5.0.0)
+Component Count:	79
+Ref	Value	Part	Footprint	Description	Vendor
+A1	Arduino_Nano_v3.x	MCU_Module:Arduino_Nano_v3.x	Module:Arduino_Nano	Arduino Nano v3.x	
+C1	100uF	Device:CP	Capacitor_THT:CP_Radial_D5.0mm_P2.50mm	Polarized capacitor	
+C2	100n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+C3	100n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+C4	100uF 16v	Device:CP	Capacitor_THT:CP_Radial_D5.0mm_P2.50mm	Polarized capacitor	
+C5	100n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+C6	100uF 16v	Device:CP	Capacitor_THT:CP_Radial_D5.0mm_P2.50mm	Polarized capacitor	
+C7	100n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+C8	100n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+C9	10n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+C10	10n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+C11	10n	Device:C	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Unpolarized capacitor	
+D1	LED1	Device:LED	LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm	Light emitting diode	
+D2	LED2	Device:LED	LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm	Light emitting diode	
+D3	LED3	Device:LED	LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm	Light emitting diode	
+D4	LED4	Device:LED	LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm	Light emitting diode	
+D5	LEDset1	Device:LED	LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm	Light emitting diode	
+D6	LEDset2	Device:LED	LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm	Light emitting diode	
+IC1	MCP4725module	aj_adc_dac:MCP4725module	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical		
+IC2	MCP4725module	aj_adc_dac:MCP4725module	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical		
+J1	Doepfer connector	Connector_Generic:Conn_02x08_Odd_Even	Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical	Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)	
+J2	Vin 7-12v	Connector:Barrel_Jack	Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal	DC Barrel Jack	
+J3	MIDI OUT	Connector:DIN-5	w_conn_av:din-5	5-pin DIN connector	
+J4	CV6 in	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J5	Power Conn	Connector_Generic:Conn_01x04	Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical	Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J6	CV1	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J7	CV2	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J8	MIDI IN	Connector:DIN-5	w_conn_av:din-5	5-pin DIN connector	
+J9	CV3	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J10	CV4	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J11	Gate1	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J12	GateConn	Connector:Conn_01x06_Male	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J13	Gate2	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J14	Gate3	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J15	Gate4	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J16	I2C_Conn	Connector:Conn_01x06_Male	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J17	I2C_Conn	Connector:Conn_01x06_Male	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J18	GateConn	Connector:Conn_01x06_Male	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J19	CV7 in	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+J20	CV3 in	Connector:AudioJack2	Connector_Audio:AudioJack3StereoNarrow-PJ-321	Audio Jack, 2 Poles (Mono / TS)	
+JP1	Tx	Device:Jumper	Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical	Jumper, normally closed	
+JP2	Rx	Device:Jumper	Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical	Jumper, normally closed	
+Q1	MMBT2222A	MMBT2222A:MMBT2222A	Package_TO_SOT_SMD:SOT-23_Handsoldering		
+Q2	MMBT2222A	MMBT2222A:MMBT2222A	Package_TO_SOT_SMD:SOT-23_Handsoldering		
+R1	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R2	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R3	10M	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R4	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R5	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R6	1k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R7	220R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R8	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R9	1k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R10	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R11	8k2	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R12	8k2	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R13	1k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R14	220R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R15	1k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R16	0R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R17	0R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R18	680R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R19	680R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R20	680R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R21	680R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R22	680R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R23	680R	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R24	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R25	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R26	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R27	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R28	10k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+R29	1k	Device:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor	
+RV1	10k	Device:R_POT	Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal	Potentiometer	
+RV2	10k	Device:R_POT	Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal	Potentiometer	
+SW1	KY40_Rotary_Encoder_Module	Module:KY40_Rotary_Encoder_Module	Rotary_Encoder:KY-40-rotary-encoder-board	Rotary encoder, dual channel, incremental quadrate outputs, with switch	
+U1	TL072	Amplifier_Operational:TL072	AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm	Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8	
+U2	EL814	Isolator:EL814	Package_DIP:DIP-4_W7.62mm_LongPads	AC/DC NPN Optocoupler, DIP4/SMD4	
+U3	MCP4728	Analog_DAC:MCP4728	Package_SO:MSOP-10_3x3mm_P0.5mm	12-bit digital to analog converter, quad output, 2.048V internal reference, integrated EEPROM, I2C interface	
