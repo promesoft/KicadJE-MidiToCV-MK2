@@ -4,7 +4,20 @@ Midi to CV in Eurorack
 
 #MK2 Design
 ## Status - New project started
+
+### Mechanical
 ![](MIDI2CV.png)
+
+The construction is still split in two - but the MK2 design relies on a base board that is 90degrees to the face plate (like the MK1) and a connector board that is 10mm behind the faceplate 90 degrees angle to the base board.
+
+## Base Construction
+### Arduino base board 
+ - Arduino Nano
+ - MIDI IN/OUT connectors
+ - Gate 3 and Gate 4 as Mini Jacks (PJ-321)
+ - Board connector
+-----------------------------------------------------
+
 # MK1 Design
 ## Status - Rev B - Ongoing PCB layout and Sch update
 
