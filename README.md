@@ -14,8 +14,10 @@ The construction is still split in two - but the MK2 design relies on a base boa
 ### Arduino base board 
  - Arduino Nano
  - MIDI IN/OUT connectors
- - Gate 3 and Gate 4 as Mini Jacks (PJ-321)
+ - Gate 3 and Gate 4 as Mini Jacks (PJ-321) with fixed x2 amplification
  - Board connector
+ - 16pin Europower connector
+ - Barreljack for 7-12V digital Pwr
 -----------------------------------------------------
 
 # MK1 Design
