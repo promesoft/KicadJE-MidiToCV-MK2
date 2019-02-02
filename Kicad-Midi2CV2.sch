@@ -287,7 +287,7 @@ U 1 1 5C21A17B
 P 5425 2750
 F 0 "J104" H 5525 2850 50  0000 L CNN
 F 1 "Power Conn" H 5225 3000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5425 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5425 2750 50  0001 C CNN
 F 3 "~" H 5425 2750 50  0001 C CNN
 	1    5425 2750
 	1    0    0    -1  
@@ -1029,39 +1029,17 @@ Wire Wire Line
 $Comp
 L MMBT2222A:MMBT2222A Q101
 U 1 1 5C800CB0
-P 2600 2250
-F 0 "Q101" H 2650 2250 50  0000 L CNN
-F 1 "MMBT2222A" H 2350 2075 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2600 2250 50  0001 L BNN
-F 3 "Unavailable" H 2600 2250 50  0001 L BNN
-F 4 "None" H 2600 2250 50  0001 L BNN "Field4"
-F 5 "ON" H 2600 2250 50  0001 L BNN "Field5"
-F 6 "MMBT2222A" H 2600 2250 50  0001 L BNN "Field7"
-F 7 "TO-236-3 Taitron" H 2600 2250 50  0001 L BNN "Field8"
-	1    2600 2250
+P 2725 2250
+F 0 "Q101" H 2775 2250 50  0000 L CNN
+F 1 "MMBT2222A" H 2475 2075 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2725 2250 50  0001 L BNN
+F 3 "Unavailable" H 2725 2250 50  0001 L BNN
+F 4 "None" H 2725 2250 50  0001 L BNN "Field4"
+F 5 "ON" H 2725 2250 50  0001 L BNN "Field5"
+F 6 "MMBT2222A" H 2725 2250 50  0001 L BNN "Field7"
+F 7 "TO-236-3 Taitron" H 2725 2250 50  0001 L BNN "Field8"
+	1    2725 2250
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R111
-U 1 1 5C800E88
-P 2950 2025
-F 0 "R111" H 2880 1979 50  0000 R CNN
-F 1 "OPEN" H 2880 2070 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 2025 50  0001 C CNN
-F 3 "~" H 2950 2025 50  0001 C CNN
-	1    2950 2025
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R118
-U 1 1 5C800F7E
-P 2950 2475
-F 0 "R118" H 2880 2429 50  0000 R CNN
-F 1 "OPEN" H 2880 2520 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 2475 50  0001 C CNN
-F 3 "~" H 2950 2475 50  0001 C CNN
-	1    2950 2475
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0111
@@ -1102,7 +1080,6 @@ Wire Wire Line
 	4050 3700 3950 3700
 Wire Wire Line
 	3950 3700 3950 2950
-Connection ~ 2500 2650
 Wire Wire Line
 	2150 1700 2150 1650
 Wire Wire Line
@@ -1375,7 +1352,7 @@ Wire Wire Line
 	5050 500  5050 900 
 Connection ~ 5050 900 
 Wire Wire Line
-	5050 900  3275 900 
+	5050 900  3675 900 
 Wire Wire Line
 	5650 1500 5650 1400
 Wire Wire Line
@@ -1432,7 +1409,7 @@ U 1 1 5C68ECB9
 P 6650 7125
 F 0 "J117" H 6623 7005 50  0000 R CNN
 F 1 "I2C_Conn" H 6800 7425 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 6650 7125 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6650 7125 50  0001 C CNN
 F 3 "~" H 6650 7125 50  0001 C CNN
 	1    6650 7125
 	-1   0    0    1   
@@ -1443,7 +1420,7 @@ U 1 1 5C68EF07
 P 6200 7175
 F 0 "J118" H 6173 7055 50  0000 R CNN
 F 1 "I2C_Conn" H 6350 7425 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 6200 7175 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 6200 7175 50  0001 C CNN
 F 3 "~" H 6200 7175 50  0001 C CNN
 	1    6200 7175
 	-1   0    0    1   
@@ -1546,7 +1523,7 @@ U 1 1 5C94CFF9
 P 4550 6925
 F 0 "J116" H 4523 6805 50  0000 R CNN
 F 1 "ControlConn" H 4650 7500 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4550 6925 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Horizontal" H 4550 6925 50  0001 C CNN
 F 3 "~" H 4550 6925 50  0001 C CNN
 	1    4550 6925
 	-1   0    0    1   
@@ -1812,16 +1789,14 @@ Wire Wire Line
 $Comp
 L Device:R R113
 U 1 1 5C5491E2
-P 1625 2100
-F 0 "R113" V 1450 2100 50  0000 C CNN
-F 1 "220R" V 1509 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1555 2100 50  0001 C CNN
-F 3 "~" H 1625 2100 50  0001 C CNN
-	1    1625 2100
+P 1725 1875
+F 0 "R113" V 1550 1875 50  0000 C CNN
+F 1 "OPEN" V 1609 1875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1655 1875 50  0001 C CNN
+F 3 "~" H 1725 1875 50  0001 C CNN
+	1    1725 1875
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1800 1700 2150 1700
 $Comp
 L Device:R R117
 U 1 1 5C58924C
@@ -1834,25 +1809,14 @@ F 3 "~" H 3175 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R110
-U 1 1 5C589676
-P 2800 2025
-F 0 "R110" V 2593 2025 50  0000 C CNN
-F 1 "OPEN" V 2684 2025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2730 2025 50  0001 C CNN
-F 3 "~" H 2800 2025 50  0001 C CNN
-	1    2800 2025
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R119
 U 1 1 5C5CBC55
-P 2250 2550
-F 0 "R119" V 2043 2550 50  0000 C CNN
-F 1 "OPEN" V 2134 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2180 2550 50  0001 C CNN
-F 3 "~" H 2250 2550 50  0001 C CNN
-	1    2250 2550
+P 2175 2550
+F 0 "R119" V 1968 2550 50  0000 C CNN
+F 1 "680R" V 2059 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2105 2550 50  0001 C CNN
+F 3 "~" H 2175 2550 50  0001 C CNN
+	1    2175 2550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1880,37 +1844,6 @@ Wire Wire Line
 	1475 3850 1700 3850
 Wire Wire Line
 	650  2650 1025 2650
-Wire Wire Line
-	3025 2250 2950 2250
-Wire Wire Line
-	2800 2175 2800 2250
-Connection ~ 2800 2250
-Wire Wire Line
-	2800 2250 2700 2250
-Wire Wire Line
-	2950 2625 2950 2650
-Wire Wire Line
-	2950 2650 2500 2650
-Wire Wire Line
-	2100 2550 2050 2550
-Wire Wire Line
-	2050 2550 2050 2650
-Connection ~ 2050 2650
-Wire Wire Line
-	2050 2650 2500 2650
-Wire Wire Line
-	2400 2550 2500 2550
-Wire Wire Line
-	2500 2550 2500 2450
-Wire Wire Line
-	2950 1875 2950 1700
-Wire Wire Line
-	2950 1700 2150 1700
-Connection ~ 2150 1700
-Wire Wire Line
-	2800 1875 2500 1875
-Wire Wire Line
-	2500 1875 2500 2050
 $Comp
 L Device:R R112
 U 1 1 5C78F4B7
@@ -1923,23 +1856,11 @@ F 3 "~" H 2175 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R108
-U 1 1 5C78F59B
-P 2175 1875
-F 0 "R108" V 2100 1875 50  0000 C CNN
-F 1 "OPEN" V 2175 1875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2105 1875 50  0001 C CNN
-F 3 "~" H 2175 1875 50  0001 C CNN
-	1    2175 1875
-	0    1    1    0   
-$EndComp
-Connection ~ 2500 2050
-$Comp
 L Device:R R116
 U 1 1 5C7FDED9
 P 2175 2250
 F 0 "R116" V 2050 2250 50  0000 C CNN
-F 1 "OPEN" V 2175 2250 50  0000 C CNN
+F 1 "0R" V 2175 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2105 2250 50  0001 C CNN
 F 3 "~" H 2175 2250 50  0001 C CNN
 	1    2175 2250
@@ -1947,40 +1868,11 @@ F 3 "~" H 2175 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2325 2250 2325 2050
-Connection ~ 2325 2050
-Wire Wire Line
-	2325 2050 2500 2050
-Wire Wire Line
-	2325 1875 2325 2050
-Wire Wire Line
-	2025 1875 1800 1875
-Wire Wire Line
-	1800 1875 1800 1700
-Wire Wire Line
-	1300 2250 1625 2250
 Wire Wire Line
 	1350 2050 2025 2050
 Connection ~ 1350 2050
-Connection ~ 1625 2250
-Wire Wire Line
-	1625 2250 2025 2250
-Wire Wire Line
-	1625 1950 1625 1700
-Connection ~ 1800 1700
 Wire Wire Line
 	1350 1750 1350 1700
-Wire Wire Line
-	1350 1700 1625 1700
-Connection ~ 1625 1700
-Wire Wire Line
-	1625 1700 1800 1700
-Wire Wire Line
-	2950 2175 2950 2250
-Connection ~ 2950 2250
-Wire Wire Line
-	2950 2250 2800 2250
-Wire Wire Line
-	2950 2250 2950 2325
 $Comp
 L Device:Jumper JP101
 U 1 1 5C99EC9D
@@ -1992,15 +1884,13 @@ F 3 "~" H 1325 2650 50  0001 C CNN
 	1    1325 2650
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1625 2650 2050 2650
 Text Label 1550 2250 0    50   ~ 0
 MIDI-OUT-5
-Text Label 2500 1875 0    50   ~ 0
+Text Label 2625 2050 0    50   ~ 0
 Q1Coll
-Text Label 2725 2250 0    50   ~ 0
+Text Label 2825 2250 0    50   ~ 0
 Q1Base
-Text Label 2500 2550 0    50   ~ 0
+Text Label 2325 2400 0    50   ~ 0
 Q1Emitter
 Text Label 2975 3600 0    50   ~ 0
 Q2Coll
@@ -2123,7 +2013,7 @@ U 1 1 5CC280A8
 P 4900 6850
 F 0 "J115" H 4873 6730 50  0000 R CNN
 F 1 "ControlConn" H 5000 7425 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4900 6850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4900 6850 50  0001 C CNN
 F 3 "~" H 4900 6850 50  0001 C CNN
 	1    4900 6850
 	-1   0    0    1   
@@ -2731,4 +2621,64 @@ Wire Wire Line
 Connection ~ 750  6100
 Wire Wire Line
 	750  6100 750  6300
+Wire Wire Line
+	1625 2650 2025 2650
+Connection ~ 2025 2650
+Wire Wire Line
+	2025 2650 2500 2650
+Wire Wire Line
+	2025 2550 2025 2650
+Wire Wire Line
+	2325 2550 2625 2550
+Wire Wire Line
+	2625 2550 2625 2450
+Wire Wire Line
+	2825 2250 3025 2250
+Wire Wire Line
+	2150 1700 2625 1700
+Connection ~ 2150 1700
+Wire Wire Line
+	2325 2250 2325 2550
+Connection ~ 2325 2250
+Connection ~ 2325 2550
+Wire Wire Line
+	1725 1725 1725 1700
+Wire Wire Line
+	1300 2250 1725 2250
+Connection ~ 1725 1700
+Wire Wire Line
+	1725 1700 2150 1700
+Wire Wire Line
+	1725 2025 1725 2250
+Connection ~ 1725 2250
+Wire Wire Line
+	1725 2250 2025 2250
+Wire Wire Line
+	1350 1700 1725 1700
+Wire Wire Line
+	2625 1700 2625 1750
+$Comp
+L Device:R R?
+U 1 1 5C668F91
+P 2625 1900
+F 0 "R?" V 2418 1900 50  0000 C CNN
+F 1 "0R" V 2509 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2555 1900 50  0001 C CNN
+F 3 "~" H 2625 1900 50  0001 C CNN
+	1    2625 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 5C8D3169
+P 3525 900
+F 0 "F?" V 3300 900 50  0000 C CNN
+F 1 "Polyfuse" V 3391 900 50  0000 C CNN
+F 2 "" H 3575 700 50  0001 L CNN
+F 3 "~" H 3525 900 50  0001 C CNN
+	1    3525 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3375 900  3275 900 
 $EndSCHEMATC
