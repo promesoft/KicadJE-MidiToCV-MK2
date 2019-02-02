@@ -20,6 +20,7 @@ Midi to CV in Eurorack
 
 The construction is still split in two - but the MK2 design relies on a base board that is 90degrees to the face plate (like the MK1) and a connector board that is 10mm behind the faceplate 90 degrees angle to the base board.
 
+![](MIDI2CV MK2 Module (1).png)
 -----------------------------------------------------
 
 # MK1 Design
