@@ -885,7 +885,7 @@ Wire Wire Line
 	1300 2050 1350 2050
 Text Notes 650  3200 0    79   ~ 16
 MIDI IN
-Text Notes 2875 6125 0    79   ~ 16
+Text Notes 2900 6675 0    79   ~ 16
 LED Signals
 Text Notes 800  6900 0    79   ~ 16
 Encoder Control
@@ -2054,7 +2054,7 @@ Connection ~ 750  6300
 Wire Wire Line
 	750  6300 750  6600
 Wire Wire Line
-	750  5975 750  6300
+	750  5975 750  6100
 Wire Wire Line
 	750  6600 750  7400
 Connection ~ 750  7400
@@ -2698,4 +2698,37 @@ Connection ~ 6450 1250
 Wire Wire Line
 	6550 1350 6550 1175
 Connection ~ 6550 1350
+Text GLabel 3250 6100 2    50   Input ~ 0
+LED_LFO
+$Comp
+L Device:LED D?
+U 1 1 5C593F89
+P 2525 6100
+F 0 "D?" H 2516 6316 50  0000 C CNN
+F 1 "LEDset1" H 2516 6225 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 2525 6100 50  0001 C CNN
+F 3 "~" H 2525 6100 50  0001 C CNN
+	1    2525 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C593F8F
+P 2975 6100
+F 0 "R?" V 2768 6100 50  0000 C CNN
+F 1 "680R" V 2859 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2905 6100 50  0001 C CNN
+F 3 "~" H 2975 6100 50  0001 C CNN
+	1    2975 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2825 6100 2675 6100
+Wire Wire Line
+	3125 6100 3250 6100
+Wire Wire Line
+	2375 6100 750  6100
+Connection ~ 750  6100
+Wire Wire Line
+	750  6100 750  6300
 $EndSCHEMATC
