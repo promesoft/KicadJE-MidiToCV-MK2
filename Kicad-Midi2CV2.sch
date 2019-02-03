@@ -549,13 +549,13 @@ Text GLabel 3350 7100 2    50   Input ~ 0
 Btn
 Text GLabel 2400 5975 2    50   Input ~ 0
 LED-MIDI
-Text GLabel 4200 6625 0    50   Input ~ 0
+Text GLabel 4325 6525 0    50   Input ~ 0
 LED1
-Text GLabel 4200 6725 0    50   Input ~ 0
+Text GLabel 4325 6625 0    50   Input ~ 0
 LED2
-Text GLabel 4200 6825 0    50   Input ~ 0
+Text GLabel 4325 6725 0    50   Input ~ 0
 LED3
-Text GLabel 4200 6925 0    50   Input ~ 0
+Text GLabel 4325 6825 0    50   Input ~ 0
 LED4
 $Comp
 L power:GND #PWR0117
@@ -1404,23 +1404,23 @@ Wire Notes Line
 Text Notes 650  1600 0    79   ~ 16
 MIDI OUT
 $Comp
-L Connector:Conn_01x08_Male J117
+L Connector:Conn_01x09_Male J117
 U 1 1 5C68ECB9
 P 6650 7125
 F 0 "J117" H 6623 7005 50  0000 R CNN
 F 1 "I2C_Conn" H 6800 7425 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6650 7125 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 6650 7125 50  0001 C CNN
 F 3 "~" H 6650 7125 50  0001 C CNN
 	1    6650 7125
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x08_Male J118
+L Connector:Conn_01x09_Male J118
 U 1 1 5C68EF07
 P 6200 7175
 F 0 "J118" H 6173 7055 50  0000 R CNN
 F 1 "I2C_Conn" H 6350 7425 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 6200 7175 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 6200 7175 50  0001 C CNN
 F 3 "~" H 6200 7175 50  0001 C CNN
 	1    6200 7175
 	-1   0    0    1   
@@ -1452,15 +1452,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0123
 U 1 1 5C70F1A5
-P 5675 7375
-F 0 "#PWR0123" H 5675 7125 50  0001 C CNN
-F 1 "GND" H 5500 7350 50  0000 C CNN
-F 2 "" H 5675 7375 50  0001 C CNN
-F 3 "" H 5675 7375 50  0001 C CNN
-	1    5675 7375
+P 5675 7475
+F 0 "#PWR0123" H 5675 7225 50  0001 C CNN
+F 1 "GND" H 5500 7450 50  0000 C CNN
+F 2 "" H 5675 7475 50  0001 C CNN
+F 3 "" H 5675 7475 50  0001 C CNN
+	1    5675 7475
 	1    0    0    -1  
 $EndComp
-Connection ~ 6000 7375
 $Comp
 L power:+5V #PWR0121
 U 1 1 5C7256F3
@@ -1473,7 +1472,7 @@ F 3 "" H 5650 6875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6000 6875
-Text Notes 3700 6125 0    79   ~ 16
+Text Notes 5950 6100 0    79   ~ 16
 Board intercon
 Wire Notes Line
 	600  1400 600  500 
@@ -1518,21 +1517,21 @@ Wire Wire Line
 Wire Notes Line
 	600  7750 6900 7750
 $Comp
-L Connector:Conn_01x12_Male J116
+L Connector:Conn_01x11_Male J116
 U 1 1 5C94CFF9
-P 4550 6925
-F 0 "J116" H 4523 6805 50  0000 R CNN
-F 1 "ControlConn" H 4650 7500 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Horizontal" H 4550 6925 50  0001 C CNN
-F 3 "~" H 4550 6925 50  0001 C CNN
-	1    4550 6925
+P 4675 7025
+F 0 "J116" H 4648 6905 50  0000 R CNN
+F 1 "ControlConn" H 4775 7600 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Horizontal" H 4675 7025 50  0001 C CNN
+F 3 "~" H 4675 7025 50  0001 C CNN
+	1    4675 7025
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1150 7600 1650 7600
-Text GLabel 6000 7075 0    50   Input ~ 0
+Text GLabel 4325 7525 0    50   Input ~ 0
 Gate1
-Text GLabel 6000 6975 0    50   Input ~ 0
+Text GLabel 4325 7425 0    50   Input ~ 0
 Gate2
 Text GLabel 5350 4800 2    50   Input ~ 0
 A6
@@ -1956,149 +1955,135 @@ Wire Notes Line
 	6300 3100 8525 3100
 Wire Notes Line
 	6300 500  8525 500 
-Text GLabel 4200 6525 0    50   Input ~ 0
+Text GLabel 4325 7125 0    50   Input ~ 0
 LED-CV2
-Text GLabel 4200 6425 0    50   Input ~ 0
+Text GLabel 4325 7025 0    50   Input ~ 0
 LED-CV1
-Text GLabel 4200 6325 0    50   Input ~ 0
+Text GLabel 4325 6925 0    50   Input ~ 0
 LED-MIDI
 Wire Notes Line
 	3650 6750 600  6750
-Text GLabel 4200 7125 0    50   Input ~ 0
+Text GLabel 6000 7350 0    50   Input ~ 0
 Btn
-Text GLabel 4200 7225 0    50   Input ~ 0
+Text GLabel 6000 7250 0    50   Input ~ 0
 A1
-Text GLabel 4200 7325 0    50   Input ~ 0
+Text GLabel 6000 7150 0    50   Input ~ 0
 A2
 $Comp
 L power:GND #PWR0124
 U 1 1 5CAA25A2
-P 3875 7450
-F 0 "#PWR0124" H 3875 7200 50  0001 C CNN
-F 1 "GND" H 3880 7277 50  0000 C CNN
-F 2 "" H 3875 7450 50  0001 C CNN
-F 3 "" H 3875 7450 50  0001 C CNN
-	1    3875 7450
+P 3875 7350
+F 0 "#PWR0124" H 3875 7100 50  0001 C CNN
+F 1 "GND" H 3880 7177 50  0000 C CNN
+F 2 "" H 3875 7350 50  0001 C CNN
+F 3 "" H 3875 7350 50  0001 C CNN
+	1    3875 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 6325 4275 6325
+	4325 6525 4400 6525
 Wire Wire Line
-	4200 6425 4275 6425
+	4325 6625 4400 6625
 Wire Wire Line
-	4200 6525 4275 6525
+	4325 6725 4400 6725
 Wire Wire Line
-	4200 6625 4275 6625
+	4325 6825 4400 6825
 Wire Wire Line
-	4200 6725 4275 6725
+	4325 6925 4400 6925
 Wire Wire Line
-	4200 6825 4275 6825
+	4325 7025 4400 7025
 Wire Wire Line
-	4200 6925 4275 6925
+	4325 7125 4400 7125
 Wire Wire Line
-	4200 7125 4275 7125
+	4325 7425 4400 7425
 Wire Wire Line
-	4200 7225 4275 7225
+	3775 7275 3775 7300
 Wire Wire Line
-	4200 7325 4275 7325
-Wire Wire Line
-	4350 7425 4275 7425
-Wire Wire Line
-	3875 7425 3875 7450
-Wire Wire Line
-	4350 7025 4275 7025
+	4475 7225 4400 7225
 $Comp
-L Connector:Conn_01x12_Male J115
+L Connector:Conn_01x11_Male J115
 U 1 1 5CC280A8
-P 4900 6850
-F 0 "J115" H 4873 6730 50  0000 R CNN
-F 1 "ControlConn" H 5000 7425 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4900 6850 50  0001 C CNN
-F 3 "~" H 4900 6850 50  0001 C CNN
-	1    4900 6850
+P 5025 6950
+F 0 "J115" H 4998 6830 50  0000 R CNN
+F 1 "ControlConn" H 5125 7525 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 5025 6950 50  0001 C CNN
+F 3 "~" H 5025 6950 50  0001 C CNN
+	1    5025 6950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4275 6325 4275 6250
+	4400 6525 4400 6450
 Wire Wire Line
-	4275 6250 4700 6250
-Connection ~ 4275 6325
+	4400 6450 4825 6450
+Connection ~ 4400 6525
 Wire Wire Line
-	4275 6325 4350 6325
+	4400 6525 4475 6525
 Wire Wire Line
-	4700 6350 4275 6350
+	4825 6550 4400 6550
 Wire Wire Line
-	4275 6350 4275 6425
-Connection ~ 4275 6425
+	4400 6550 4400 6625
+Connection ~ 4400 6625
 Wire Wire Line
-	4275 6425 4350 6425
+	4400 6625 4475 6625
 Wire Wire Line
-	4700 6450 4275 6450
+	4825 6650 4400 6650
 Wire Wire Line
-	4275 6450 4275 6525
-Connection ~ 4275 6525
+	4400 6650 4400 6725
+Connection ~ 4400 6725
 Wire Wire Line
-	4275 6525 4350 6525
+	4400 6725 4475 6725
 Wire Wire Line
-	4700 6550 4275 6550
+	4825 6750 4400 6750
 Wire Wire Line
-	4275 6550 4275 6625
-Connection ~ 4275 6625
+	4400 6750 4400 6825
+Connection ~ 4400 6825
 Wire Wire Line
-	4275 6625 4350 6625
+	4400 6825 4475 6825
 Wire Wire Line
-	4700 6650 4275 6650
+	4825 6850 4400 6850
 Wire Wire Line
-	4275 6650 4275 6725
-Connection ~ 4275 6725
+	4400 6850 4400 6925
+Connection ~ 4400 6925
 Wire Wire Line
-	4275 6725 4350 6725
+	4400 6925 4475 6925
 Wire Wire Line
-	4700 6750 4275 6750
+	4825 6950 4400 6950
 Wire Wire Line
-	4275 6750 4275 6825
-Connection ~ 4275 6825
+	4400 6950 4400 7025
+Connection ~ 4400 7025
 Wire Wire Line
-	4275 6825 4350 6825
+	4400 7025 4475 7025
 Wire Wire Line
-	4700 6850 4275 6850
+	4825 7050 4400 7050
 Wire Wire Line
-	4275 6850 4275 6925
-Connection ~ 4275 6925
+	4400 7050 4400 7125
+Connection ~ 4400 7125
 Wire Wire Line
-	4275 6925 4350 6925
+	4400 7125 4475 7125
 Wire Wire Line
-	4700 6950 4275 6950
+	4825 7150 4400 7150
 Wire Wire Line
-	4275 6950 4275 7025
+	4400 7150 4400 7225
 Wire Wire Line
-	4700 7050 4275 7050
+	4825 7250 4400 7250
 Wire Wire Line
-	4275 7050 4275 7125
-Connection ~ 4275 7125
+	4400 7250 4400 7325
+Connection ~ 4400 7325
 Wire Wire Line
-	4275 7125 4350 7125
+	4400 7325 4475 7325
 Wire Wire Line
-	4700 7150 4275 7150
+	4825 7350 4400 7350
 Wire Wire Line
-	4275 7150 4275 7225
-Connection ~ 4275 7225
+	4400 7350 4400 7425
+Connection ~ 4400 7425
 Wire Wire Line
-	4275 7225 4350 7225
+	4400 7425 4475 7425
 Wire Wire Line
-	4700 7250 4275 7250
+	4825 7450 4400 7450
 Wire Wire Line
-	4275 7250 4275 7325
-Connection ~ 4275 7325
+	4400 7450 4400 7525
 Wire Wire Line
-	4275 7325 4350 7325
-Wire Wire Line
-	4700 7350 4275 7350
-Wire Wire Line
-	4275 7350 4275 7425
-Connection ~ 4275 7425
-Wire Wire Line
-	4275 7425 3875 7425
+	4400 7525 4475 7525
 Text GLabel 5350 4700 2    50   Input ~ 0
 SCL
 Text GLabel 5350 4600 2    50   Input ~ 0
@@ -2121,9 +2106,9 @@ Wire Wire Line
 Connection ~ 6450 1875
 Wire Wire Line
 	6450 1875 6450 2300
-Text GLabel 6000 7175 0    50   Input ~ 0
+Text GLabel 6000 7050 0    50   Input ~ 0
 SDA
-Text GLabel 6000 7275 0    50   Input ~ 0
+Text GLabel 6000 6950 0    50   Input ~ 0
 SCL
 Text GLabel 3950 4900 0    50   Input ~ 0
 LED_LFO
@@ -2149,10 +2134,10 @@ Wire Wire Line
 Connection ~ 3750 1000
 Text GLabel 6000 6725 0    50   Input ~ 0
 +12V
-Text GLabel 6000 7475 0    50   Input ~ 0
+Text GLabel 6000 7575 0    50   Input ~ 0
 -12V
 Wire Wire Line
-	5675 7375 6000 7375
+	5675 7475 6000 7475
 Wire Wire Line
 	5650 6875 6000 6875
 Text GLabel 2400 4800 2    50   Input ~ 0
@@ -2264,11 +2249,11 @@ Wire Wire Line
 Connection ~ 2575 900 
 Wire Wire Line
 	2575 900  3050 900 
-Text GLabel 4200 7025 0    50   Input ~ 0
+Text GLabel 4325 7225 0    50   Input ~ 0
 LED_LFO
 Wire Wire Line
-	4200 7025 4275 7025
-Connection ~ 4275 7025
+	4325 7225 4400 7225
+Connection ~ 4400 7225
 $Comp
 L power:+5V #PWR0101
 U 1 1 5D2B98A6
@@ -2309,7 +2294,7 @@ U 1 1 5D47D22D
 P 1350 950
 F 0 "F102" V 1125 950 50  0000 C CNN
 F 1 "Polyfuse" V 1216 950 50  0000 C CNN
-F 2 "" H 1400 750 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 750 50  0001 L CNN
 F 3 "~" H 1350 950 50  0001 C CNN
 	1    1350 950 
 	0    1    1    0   
@@ -2674,11 +2659,21 @@ U 1 1 5C8D3169
 P 3525 900
 F 0 "F101" V 3300 900 50  0000 C CNN
 F 1 "Polyfuse" V 3391 900 50  0000 C CNN
-F 2 "" H 3575 700 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3575 700 50  0001 L CNN
 F 3 "~" H 3525 900 50  0001 C CNN
 	1    3525 900 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3375 900  3275 900 
+Connection ~ 6000 7475
+Wire Wire Line
+	3875 7325 4400 7325
+Wire Wire Line
+	4325 7525 4400 7525
+Connection ~ 4400 7525
+Wire Wire Line
+	6000 7575 6000 7525
+Wire Wire Line
+	6000 7525 6450 7525
 $EndSCHEMATC
