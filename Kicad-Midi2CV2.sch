@@ -545,13 +545,13 @@ Text GLabel 3350 7100 2    50   Input ~ 0
 Btn
 Text GLabel 2400 5975 2    50   Input ~ 0
 LED-MIDI
-Text GLabel 4325 6525 0    50   Input ~ 0
+Text GLabel 4325 7225 0    50   Input ~ 0
 LED1
-Text GLabel 4325 6625 0    50   Input ~ 0
+Text GLabel 4325 7325 0    50   Input ~ 0
 LED2
-Text GLabel 4325 6725 0    50   Input ~ 0
+Text GLabel 4325 7425 0    50   Input ~ 0
 LED3
-Text GLabel 4325 6825 0    50   Input ~ 0
+Text GLabel 4325 7525 0    50   Input ~ 0
 LED4
 $Comp
 L power:GND #PWR0120
@@ -1496,9 +1496,9 @@ F 3 "~" H 4675 7025 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 7600 1300 7600
-Text GLabel 4325 7525 0    50   Input ~ 0
+Text GLabel 4325 7025 0    50   Input ~ 0
 Gate1
-Text GLabel 4325 7425 0    50   Input ~ 0
+Text GLabel 4325 7125 0    50   Input ~ 0
 Gate2
 Text GLabel 5350 4800 2    50   Input ~ 0
 A6
@@ -1920,11 +1920,11 @@ Wire Notes Line
 	6300 3100 8525 3100
 Wire Notes Line
 	6300 500  8525 500 
-Text GLabel 4325 7125 0    50   Input ~ 0
+Text GLabel 4325 6825 0    50   Input ~ 0
 LED-CV2
-Text GLabel 4325 7025 0    50   Input ~ 0
+Text GLabel 4325 6625 0    50   Input ~ 0
 LED-CV1
-Text GLabel 4325 6925 0    50   Input ~ 0
+Text GLabel 4325 6725 0    50   Input ~ 0
 LED-MIDI
 Wire Notes Line
 	3650 6750 600  6750
@@ -1937,12 +1937,12 @@ A2
 $Comp
 L power:GND #PWR0128
 U 1 1 5CAA25A2
-P 3875 7350
-F 0 "#PWR0128" H 3875 7100 50  0001 C CNN
-F 1 "GND" H 3880 7177 50  0000 C CNN
-F 2 "" H 3875 7350 50  0001 C CNN
-F 3 "" H 3875 7350 50  0001 C CNN
-	1    3875 7350
+P 3900 6950
+F 0 "#PWR0128" H 3900 6700 50  0001 C CNN
+F 1 "GND" H 3905 6777 50  0000 C CNN
+F 2 "" H 3900 6950 50  0001 C CNN
+F 3 "" H 3900 6950 50  0001 C CNN
+	1    3900 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1954,15 +1954,11 @@ Wire Wire Line
 Wire Wire Line
 	4325 6825 4400 6825
 Wire Wire Line
-	4325 6925 4400 6925
-Wire Wire Line
 	4325 7025 4400 7025
 Wire Wire Line
 	4325 7125 4400 7125
 Wire Wire Line
 	4325 7425 4400 7425
-Wire Wire Line
-	3775 7275 3775 7300
 Wire Wire Line
 	4475 7225 4400 7225
 $Comp
@@ -2033,7 +2029,6 @@ Wire Wire Line
 	4825 7250 4400 7250
 Wire Wire Line
 	4400 7250 4400 7325
-Connection ~ 4400 7325
 Wire Wire Line
 	4400 7325 4475 7325
 Wire Wire Line
@@ -2205,7 +2200,7 @@ Wire Wire Line
 Connection ~ 2575 900 
 Wire Wire Line
 	2575 900  3050 900 
-Text GLabel 4325 7225 0    50   Input ~ 0
+Text GLabel 4325 6525 0    50   Input ~ 0
 LED_LFO
 Wire Wire Line
 	4325 7225 4400 7225
@@ -2523,8 +2518,6 @@ $EndComp
 Wire Wire Line
 	3375 900  3275 900 
 Connection ~ 6000 7475
-Wire Wire Line
-	3875 7325 4400 7325
 Wire Wire Line
 	4325 7525 4400 7525
 Connection ~ 4400 7525
@@ -3015,14 +3008,21 @@ F 3 "~" H 7775 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 5D3B40A8
 P 7850 5000
-F 0 "#PWR?" H 7850 4750 50  0001 C CNN
+F 0 "#PWR0131" H 7850 4750 50  0001 C CNN
 F 1 "GND" H 7855 4827 50  0000 C CNN
 F 2 "" H 7850 5000 50  0001 C CNN
 F 3 "" H 7850 5000 50  0001 C CNN
 	1    7850 5000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3900 6925 3900 6950
+Wire Wire Line
+	3900 6925 4400 6925
+Wire Wire Line
+	4325 7325 4400 7325
+Connection ~ 4400 7325
 $EndSCHEMATC
