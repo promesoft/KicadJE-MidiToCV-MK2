@@ -607,6 +607,21 @@ X C 3 100 200 100 D 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical:MountingHole
+#
+DEF Mechanical:MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical:MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # aj_adc_dac:MCP4725module
 #
 DEF aj_adc_dac:MCP4725module IC 0 40 Y Y 1 F N
