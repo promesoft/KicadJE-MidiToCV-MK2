@@ -2113,7 +2113,7 @@ L Device:Jumper JP104
 U 1 1 5CFE4B65
 P 1375 4300
 F 0 "JP104" H 1175 4425 50  0000 L CNN
-F 1 "GND MIDI OUT" H 1420 4426 50  0000 L CNN
+F 1 "GND MIDI IN" H 1420 4426 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1375 4300 50  0001 C CNN
 F 3 "~" H 1375 4300 50  0001 C CNN
 	1    1375 4300
@@ -2346,9 +2346,9 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10350 5750 50  0001 C CNN
 	2    10350 5750
 	1    0    0    1   
 $EndComp
-Text GLabel 10775 4225 2    50   Input ~ 0
+Text GLabel 11100 4250 3    50   Input ~ 0
 Gate3Gain
-Text GLabel 10775 5750 2    50   Input ~ 0
+Text GLabel 11125 5800 3    50   Input ~ 0
 Gate4Gain
 $Comp
 L Device:R R135
@@ -2846,34 +2846,6 @@ Wire Wire Line
 	9875 3650 9375 3650
 Wire Wire Line
 	8975 4325 9025 4325
-Wire Wire Line
-	10700 4225 10775 4225
-Wire Wire Line
-	10700 3650 10700 3925
-Wire Wire Line
-	10175 3650 10700 3650
-Wire Wire Line
-	10350 3925 10700 3925
-Connection ~ 10700 3925
-Wire Wire Line
-	10700 3925 10700 4225
-Wire Wire Line
-	10650 4225 10700 4225
-Connection ~ 10700 4225
-Wire Wire Line
-	10700 5175 10700 5450
-Wire Wire Line
-	10175 5175 10700 5175
-Wire Wire Line
-	10350 5450 10700 5450
-Connection ~ 10700 5450
-Wire Wire Line
-	10700 5450 10700 5750
-Wire Wire Line
-	10650 5750 10700 5750
-Connection ~ 10700 5750
-Wire Wire Line
-	10700 5750 10775 5750
 $Comp
 L Device:R R108
 U 1 1 5D1A877E
@@ -3025,4 +2997,58 @@ Wire Wire Line
 Wire Wire Line
 	4325 7325 4400 7325
 Connection ~ 4400 7325
+$Comp
+L Device:R R147
+U 1 1 5D6DD7CC
+P 10925 4225
+F 0 "R147" V 10718 4225 50  0000 C CNN
+F 1 "133R" V 10809 4225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10855 4225 50  0001 C CNN
+F 3 "~" H 10925 4225 50  0001 C CNN
+	1    10925 4225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11075 4225 11100 4225
+Wire Wire Line
+	11100 4225 11100 4250
+$Comp
+L Device:R R148
+U 1 1 5D718073
+P 10925 5750
+F 0 "R148" V 10718 5750 50  0000 C CNN
+F 1 "144R" V 10809 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10855 5750 50  0001 C CNN
+F 3 "~" H 10925 5750 50  0001 C CNN
+	1    10925 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11075 5750 11125 5750
+Wire Wire Line
+	11125 5750 11125 5800
+Wire Wire Line
+	10650 5750 10775 5750
+Wire Wire Line
+	11125 5450 11125 5750
+Connection ~ 11125 5750
+Wire Wire Line
+	10350 5450 11125 5450
+Wire Wire Line
+	11125 5175 11125 5450
+Wire Wire Line
+	10175 5175 11125 5175
+Connection ~ 11125 5450
+Wire Wire Line
+	10650 4225 10775 4225
+Wire Wire Line
+	11100 3650 11100 3925
+Connection ~ 11100 4225
+Connection ~ 11100 3925
+Wire Wire Line
+	11100 3925 11100 4225
+Wire Wire Line
+	10175 3650 11100 3650
+Wire Wire Line
+	10350 3925 11100 3925
 $EndSCHEMATC
