@@ -14,6 +14,7 @@ Midi to CV in Eurorack
  - 16pin Europower connector
  - Barreljack for 7-12V digital Pwr
  
+![](KicadJE-MIDI2CV-MK2-RevA-Top3D.png)
  
 ### Mechanical
 ![](MIDI2CV.png)
