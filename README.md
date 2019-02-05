@@ -4,6 +4,10 @@ Midi to CV in Eurorack
 
 # MK2 Design
 ## Status - New project started
+### Issues and Notes
+ * Note - the 4 value LED's are routed across the front board next to analogue and gate signals - so care should be taken when deciding between constant power or PWM control of brightness. The other LED's are not considered as vital as they will normally be lit when config is changed.
+### Errata
+### Workarounds
 
 ## Base Construction
 ### Arduino base board 
@@ -40,7 +44,7 @@ Please note that the PIN1 and PIN2 are GATE. This is note described clearly in h
  * Footprint of PJ-321 is too narrow in the rear end :) - minor issue
  * Midi out circuit is WRONG - Major
 ### Workarounds
-* Midi out not working - PCB workaround mod possible  
+* Midi out not working - PCB workaround mod partially possible  
  * --Remove GND around DIN pin 5 (bottom copper side)
  * --Cut GND track to DIN pin 5 (top copper side)
  * --Remove Q1, R6, R9
