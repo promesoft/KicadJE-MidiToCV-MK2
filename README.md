@@ -21,6 +21,15 @@ Midi to CV in Eurorack
  - Barreljack for 7-12V digital Pwr
  
 ![](KicadJE-MIDI2CV-MK2-RevA-Top3D.png)
+
+
+## Vital Components
+ - Arduino Nano - where the magic lives (remember to socket it to be able to reprogram it - two jumpers are in place for Rx/Tx so socket may be avoided)
+ - Jack connectors: PJ-321 for the base board and PJ-301 for the front board (important for the footprint)
+ - ALPS EC-11 Encoder (important for the footprint and 3D alignment)
+ - ALPS RV09 horisontal potentiometer (important for the footprint and for variable CV out - can be omitted if this is not needed)
+ - MCP4825 module - if chosen (important for CV out function - footprint needs to match)
+ - TL072 or similar dual op amp
  
 ### Mechanical
 ![](MIDI2CV.png)
