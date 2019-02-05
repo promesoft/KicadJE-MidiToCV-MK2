@@ -13,8 +13,10 @@ Midi to CV in Eurorack
 ### Arduino base board 
  - Arduino Nano
  - MIDI IN/OUT connectors
+ - CV 1 and CV 2 as Mini Jacks (PJ-301) with variable x2-x3 amplification
+ - Gate 1 and Gate 2 as Mini Jacks (PJ-301) 5V
  - Gate 3 and Gate 4 as Mini Jacks (PJ-321) with fixed x2 amplification
- - Board connector
+ - Board connector 9pin and 11pin from base board to front board
  - 16pin Europower connector
  - Barreljack for 7-12V digital Pwr
  
