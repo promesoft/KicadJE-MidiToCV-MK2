@@ -6,6 +6,7 @@ Midi to CV in Eurorack
 ## Status - Gerber done
 ### Issues and Notes
  * Note - the 4 value LED's are routed across the front board next to analogue and gate signals - so care should be taken when deciding between constant power or PWM control of brightness. The other LED's are not considered as vital as they will normally be lit when config is changed.
+ * Consider replacing single row board connector with double row.
 ### Errata
 ### Workarounds
 
