@@ -63,7 +63,7 @@ F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 1000 3750 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L aj_adc_dac:MCP4725module IC102
+L Kicad-Midi2CV2-rescue:MCP4725module-aj_adc_dac IC102
 U 1 1 5C1C16C6
 P 7300 2400
 F 0 "IC102" H 7600 2700 60  0000 L CNN
@@ -74,7 +74,7 @@ F 3 "" H 7300 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L aj_adc_dac:MCP4725module IC101
+L Kicad-Midi2CV2-rescue:MCP4725module-aj_adc_dac IC101
 U 1 1 5C1C326B
 P 7300 1350
 F 0 "IC101" H 7600 1650 60  0000 L CNN
@@ -511,11 +511,11 @@ F 4 "CV2 out" H 6900 5200 50  0001 C CNN "Function"
 $EndComp
 Text GLabel 3950 4200 0    50   Input ~ 0
 Gate1
-Text GLabel 3950 4300 0    50   Input ~ 0
+Text GLabel 3950 4500 0    50   Input ~ 0
 Gate2
 Text GLabel 5350 4200 2    50   Input ~ 0
 Btn
-Text GLabel 3950 4700 0    50   Input ~ 0
+Text GLabel 3950 4400 0    50   Input ~ 0
 LED-CV1
 Wire Wire Line
 	3950 4700 4050 4700
@@ -637,9 +637,9 @@ $EndComp
 Connection ~ 2850 3150
 Text Label 3550 3600 0    50   ~ 0
 RX
-Text GLabel 3950 4400 0    50   Input ~ 0
+Text GLabel 3950 4600 0    50   Input ~ 0
 Gate3
-Text GLabel 3950 4500 0    50   Input ~ 0
+Text GLabel 3950 4700 0    50   Input ~ 0
 Gate4
 Wire Wire Line
 	3950 4400 4050 4400
@@ -699,7 +699,7 @@ Wire Wire Line
 	950  5975 750  5975
 Wire Wire Line
 	950  6300 750  6300
-Text GLabel 3950 4600 0    50   Input ~ 0
+Text GLabel 3950 4300 0    50   Input ~ 0
 LED-MIDI
 Wire Wire Line
 	5050 4200 5350 4200
