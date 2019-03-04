@@ -2,12 +2,34 @@
 Midi to CV in Eurorack 
 
 
-# MK2 Design
+# MK2 Design 
 ## Status - Gerber done
-### Issues and Notes
+## Initial 
+| Stage  | Detail | Status |
+| ------------- | ------------- | ------------- |
+| create material  | sch/pcb | produced MK2 Rev A  |
+| | gerber | Produced MK2 |
+| production  | ordered  |  |
+|  | produced |  |
+|  | delivered |  |
+## Preliminary validation
+| Test  | Detail | Status |
+| ------------- | ------------- | ------------- |
+| Initial Inspection |  |  |
+| Initial Technical Test |   |  |
+| Initial Product Test |   |  |
+
+## Secondary validation
+| Test  | Detail | Status |
+| ------------- | ------------- |------------- |
+| Product Test |  | |
+| Quality |  | |
+| Long Term Product Test | |  |
+
+## Errata
+## Issues and Notes
  * Note - the 4 value LED's are routed across the front board next to analogue and gate signals - so care should be taken when deciding between constant power or PWM control of brightness. The other LED's are not considered as vital as they will normally be lit when config is changed.
  * Consider replacing single row board connector with double row.
-### Errata
 ### Workarounds
 
 ## Base Construction
