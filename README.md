@@ -3,15 +3,15 @@ Midi to CV in Eurorack
 
 
 # MK2 Design 
-## Status - Gerber done
+## Status - PCB in the mail
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | produced MK2 Rev A  |
 | | gerber | Produced MK2 |
 | production  | ordered  |  |
-|  | produced |  |
-|  | delivered |  |
+|  | produced | yes |
+|  | delivered | in the mail |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
