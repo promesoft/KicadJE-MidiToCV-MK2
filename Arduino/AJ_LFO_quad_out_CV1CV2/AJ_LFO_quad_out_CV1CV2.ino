@@ -51,13 +51,19 @@ void setup() {
   pinMode(LED2, OUTPUT);
   pinMode(LED3, OUTPUT);
   pinMode(LED4, OUTPUT);
-  pinMode(LEDsel, OUTPUT);
-  pinMode(LEDsel2, OUTPUT);
-  
+  pinMode(LED_MIDI, OUTPUT);
+  pinMode(LED_CV1, OUTPUT);
+  pinMode(LED_CV2, OUTPUT);
+  pinMode(LED_LFO, OUTPUT);
+    
   digitalWrite(LED1, HIGH);
   digitalWrite(LED2, HIGH);
   digitalWrite(LED3, HIGH);
   digitalWrite(LED4, HIGH);
+  digitalWrite(LED_MIDI, HIGH);
+  digitalWrite(LED_CV1, HIGH);
+  digitalWrite(LED_CV2, HIGH);
+  digitalWrite(LED_LFO, HIGH);
   delay(150);
 
   updateLED();
