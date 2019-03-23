@@ -44,6 +44,8 @@ void MyHandleNoteOn(byte channel, byte pitch, byte velocity) {
     else GATEval = HIGH;
     digitalWrite(Gate2,GATEval);  //Turn GATE2 on
   }
+  digitalWrite(Gate1,GATEval);  //Turn GATE1 on
+  digitalWrite(Gate2,GATEval);  //Turn GATE1 on
 }
 
 void MyHandleNoteOff(byte channel, byte pitch, byte velocity) {
