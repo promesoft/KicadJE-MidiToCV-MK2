@@ -31,6 +31,17 @@ Midi to CV in Eurorack
 | Quality |  | |
 | Long Term Product Test | |  |
 
+## Software 
+| Test  | Detail | Status |
+| ------------- | ------------- |------------- |
+| Initial SW | copy from MK1 and adjusted | OK! |
+| MIDI I/O | UI | |
+| MIDI I/O | Filtering and change ch | |
+| CV Control | UI |  |
+| CV Control | |  |
+| LFO Control | UI |  |
+| LFO Control | Function |  |
+
 ## Errata
 ## Issues and Notes
  * Note - the 4 value LED's are routed across the front board next to analogue and gate signals - so care should be taken when deciding between constant power or PWM control of brightness. The other LED's are not considered as vital as they will normally be lit when config is changed.
