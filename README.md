@@ -11,13 +11,18 @@ Midi to CV in Eurorack
 | | gerber | Produced MK2 |
 | production  | ordered  |  |
 |  | produced | yes |
-|  | delivered | in the mail |
+|  | delivered | yes |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection |  |  |
-| Initial Technical Test |   |  |
-| Initial Product Test |   |  |
+| Initial Inspection | conflict between LED on front panel and optional CV7 | OK |
+| Initial Technical Test |   | OK |
+| Initial Product Test |  | OK! |
+|  | LED's | OK |
+|  | Encoder | OK |
+|  | CV1+CV2 | OK |
+|  | GATE 1,2,3,4 | OK |
+|  | MIDI I/O | OK |
 
 ## Secondary validation
 | Test  | Detail | Status |
