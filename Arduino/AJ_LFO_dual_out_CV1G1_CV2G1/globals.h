@@ -35,6 +35,11 @@
 #define LED_CV1 8
 #define LED_CV2 12
 #define LED_LFO 13
+#define CV1State B00000000
+#define CV2State B00000001
+#define LFOState B00000010
+#define SpeedState B00000011
+#define MIDIState B00000100
 
 #define Gate1 6 // Addon board
 #define Gate2 9 // Addon board

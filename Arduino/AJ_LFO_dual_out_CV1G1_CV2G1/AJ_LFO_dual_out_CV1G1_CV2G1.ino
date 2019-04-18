@@ -321,10 +321,10 @@ void updateLED(){
   digitalWrite(LED3, LEDData[state][2]);
   digitalWrite(LED4, LEDData[state][3]);
   delay(1);
-  digitalWrite(LED_MIDI, state & B00000001);
-  digitalWrite(LED_CV1, state & B00000010);
-  digitalWrite(LED_CV2, state & B00000001);
-  digitalWrite(LED_LFO, state & B00000010);
+  digitalWrite(LED_CV1, state == CV1State);
+  digitalWrite(LED_CV2, state == CV2State);
+  digitalWrite(LED_LFO, state == LFOState);
+  digitalWrite(LED_MIDI, state == SpeedState);
 }
 
 void clearLED(){
