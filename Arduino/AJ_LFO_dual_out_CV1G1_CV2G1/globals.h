@@ -13,17 +13,19 @@
 #define PWM2 11 // Sets Pin PWM2 PWM-Output = Gate 4
 
 //OVERRIDE PIN FOR SQUARE LFO
-#define Square 9    //  Pin as LED for Tempo LED and as a square-LFO 
-#define InvSquare 6 //  Pin as LED for Tempo LED and as a inverted square-LFO 
+//#define Square 9    //  Pin as LED for Tempo LED and as a square-LFO 
+//#define InvSquare 6 //  Pin as LED for Tempo LED and as a inverted square-LFO 
 
 #define SWpin A0 //add 100nF to GND for debounce 
-#define Apin A1 //add 100nF to GND for debounce
-#define Bpin A2 //add 100nF to GND for debounce
+#define Apin A1  //add 100nF to GND for debounce
+#define Bpin A2  //add 100nF to GND for debounce
 #define CV3in A3 // Base board
-#define SDA A4 // Addon board
-#define SCL A5 // Addon board
+#define SDA A4   // Addon board
+#define SCL A5   // Addon board
 #define CV6in A6 // Doepfer Gate in + Base board
 #define CV7in A7 // Doepfer CV in + Base board
+#define Gate1 6  //  Addon board G1
+#define Gate2 9  //  Addon board G2 
 
 #define LED1 2
 #define LED2 3

@@ -87,8 +87,11 @@ void setup() {
 /* =========Setup LFO Output pins=======================*/
   pinMode(PWM1, OUTPUT);                                           // Sets Pin PWM1 PWM-Output 
   pinMode(PWM2, OUTPUT);                                           // Sets Pin PWM2 PWM-Output 
-  pinMode(Square, OUTPUT);                                          // Pin as LED for Tempo and as a square-LFO 
-  pinMode(InvSquare, OUTPUT);                                          // Pin as LED for Tempo and as a inverted square-LFO 
+//  pinMode(Square, OUTPUT);                                          // Pin as LED for Tempo and as a square-LFO 
+//  pinMode(InvSquare, OUTPUT);                                          // Pin as LED for Tempo and as a inverted square-LFO 
+/* =========Setup Gate Output pins======================*/
+  pinMode(Gate1, OUTPUT);                                           // Sets Pin PWM1 PWM-Output 
+  pinMode(Gate2, OUTPUT);                                           // Sets Pin PWM2 PWM-Output 
   
 /* =========Enable interrupt on A0,1,2==================*/
   // 1. PCIE1: Pin Change Interrupt Enable 1
@@ -218,14 +221,14 @@ void updatewave(){
     delayTime =  32 - (MIDI_CH[3]<<1);                                 // values from 0 to 15 shifted up 1 
                                                                 // multiplied by 2 as delay from sample to sample 
   /* ===========Update Square Output======================*/
-    if(tableStep<128) {                                           // Turn LED on for first half of the cycle, indicate Tempo 
+/*    if(tableStep<128) {                                           // Turn LED on for first half of the cycle, indicate Tempo 
       digitalWrite(Square, HIGH); 
       digitalWrite(InvSquare, LOW); 
     } 
     else {                                                        // Turn it off for the second half 
       digitalWrite(Square, LOW); 
       digitalWrite(InvSquare, HIGH); 
-    } 
+    } */
   /* ===========Update PWM1 Output========================*/
     PWMdata = getWaveSample(MIDI_CH[2]);
 
