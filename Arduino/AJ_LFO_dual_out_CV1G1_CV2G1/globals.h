@@ -67,6 +67,7 @@ unsigned int state = 0;
 //With LFO state 0 and 1 are reserved for CV MIDI channels
 //With LFO state 2 and 3 are reserved for the LFO settings
 byte MIDI_CH[4]; //(see state above)
+byte lastpitch0 = 0, lastpitch1 = 0;  // for keeping the last on pitch
 
 unsigned long lastwaveupdate = 0; // LFO millis timer between samples
 //unsigned int PWMshape = 0;
