@@ -43,6 +43,7 @@ Midi to CV in Eurorack
 | LFO Control | Function |  |
 
 ## Errata
+ * Physical mounting of the faceplate to holes on the base plate requires other dimensions of the angled mounts. The mounts can be very difficult to get in place due to limited space behind the front PCB.
 ## Issues and Notes
  * Note - the 4 value LED's are routed across the front board next to analogue and gate signals - so care should be taken when deciding between constant power or PWM control of brightness. The other LED's are not considered as vital as they will normally be lit when config is changed.
  * Consider replacing single row board connector with double row.
