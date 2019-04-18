@@ -3,7 +3,7 @@ Midi to CV in Eurorack
 
 
 # MK2 Design 
-## Status - PCB in the mail
+## Status - PCB delivered tested
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
