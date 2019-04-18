@@ -316,6 +316,7 @@ void updateLEDValue(unsigned int nibble,unsigned int updstate)
 ==============Update LED's based on LED Values==========
 ======================================================*/ 
 void updateLED(){
+  boolean blinkstate = byte(millis() >> 10) & CV2State;
   digitalWrite(LED1, LEDData[state][0]);
   digitalWrite(LED2, LEDData[state][1]);
   digitalWrite(LED3, LEDData[state][2]);
@@ -324,7 +325,8 @@ void updateLED(){
   digitalWrite(LED_CV1, state == CV1State);
   digitalWrite(LED_CV2, state == CV2State);
   digitalWrite(LED_LFO, state == LFOState);
-  digitalWrite(LED_MIDI, state == SpeedState);
+  digitalWrite(LED_LFO, (state == SpeedState && blinkstate));
+  digitalWrite(LED_MIDI, state == MIDIState);
 }
 
 void clearLED(){

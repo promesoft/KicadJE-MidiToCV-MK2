@@ -65,7 +65,7 @@ boolean LEDSelData = false, LEDSel2Data = false;
 unsigned int encoder[4], buttoncnt = 0;
 unsigned int state = 0; 
 //For MIDI In/Out/CV - State 00 = MidiDataInChannel - 01 = MIDI CH in select - 10 = MIDI CH OUT select - 11 = MIDI CH 2 CV select
-//For MIDI In/CV/LFO - State 00 = MIDI CH 1 CV select - 01 = MIDI CH 2 CV select - 10 = LFO Waveform - 11 = LFO Speed
+//For MIDI In/CV/LFO - State 00 = MIDI CH 1 CV select - 01 = MIDI CH 2 CV select - 10 = LFO Waveform - 11 = LFO Speed - 100 = MIDI OUT select
 
 //byte midi_channel=4;
 //Structure for keeping MIDI CH data for processing
