@@ -33,6 +33,7 @@ void MyHandleNoteOn(byte channel, byte pitch, byte velocity) {
   DACnum = pitches[pitch-36]; //-36 to transpose bottom of CASIO keyboard to C0.
   if (channel == MIDI_CH[0]) {
     lastpitch0 = pitch;
+    digitalWrite(Gate1,LOW);            //retrigger envelope
     dac.setVoltage(DACnum, false);
     if (velocity == 0) GATEval = LOW;
     else GATEval = HIGH;
@@ -41,13 +42,12 @@ void MyHandleNoteOn(byte channel, byte pitch, byte velocity) {
   }
   if (channel == MIDI_CH[1]) {
     lastpitch1 = pitch;
+    digitalWrite(Gate2,LOW);            //retrigger envelope
     dac2.setVoltage(DACnum, false);
     if (velocity == 0) GATEval = LOW;
     else GATEval = HIGH;
     digitalWrite(Gate2,GATEval);  //Turn GATE2 on
   }
-  digitalWrite(Gate1,GATEval);  //Turn GATE1 on
-  digitalWrite(Gate2,GATEval);  //Turn GATE1 on
 }
 
 void MyHandleNoteOff(byte channel, byte pitch, byte velocity) {
